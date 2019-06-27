@@ -10,7 +10,8 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Hello"
   spec.description   = "Hi"
-  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = 'https://github.com/mark-himel/campaign-discrepancies'
+  spec.summary       = 'A gem to identify discrepancies among local and remote campaigns'
   spec.license       = "MIT"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
