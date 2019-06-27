@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "activemodel", "~> 4.2", ">= 4.2.6"
-  spec.add_development_dependency 'rest-client', '~> 2.0', '>= 2.0.2'
-  spec.add_development_dependency 'dotenv-rails'
+  spec.add_development_dependency 'activerecord', '~> 5.0', '>= 5.0.0.1'
+  spec.add_development_dependency 'dotenv', '~> 2.7', '>= 2.7.4'
+  spec.add_development_dependency 'sqlite3'
 end

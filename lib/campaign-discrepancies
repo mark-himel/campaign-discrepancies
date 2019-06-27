@@ -1,0 +1,2 @@
+require File.dirname(__FILE__) + 'campaign/discrepancies'
+require File.dirname(__FILE__) + 'models/campaign.rb'

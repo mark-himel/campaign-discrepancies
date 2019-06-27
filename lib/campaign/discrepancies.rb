@@ -1,6 +1,7 @@
+require 'active_record'
 require "campaign/discrepancies/version"
 require "campaign/discrepancies/identify"
-require 'rest-client'
+require 'models/campaign'
 
 module Campaign
   module Discrepancies
